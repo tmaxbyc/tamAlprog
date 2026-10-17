@@ -1,0 +1,358 @@
+<html>
+<head>
+    <title>Informasi Kependudukan Kota Yogyakarta</title>
+    <style>
+        summary::-webkit-details-marker {
+            display: none;
+        }
+        summary {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body bgcolor="white">
+<font face="Helvetica">
+
+    <!-- HEADER UTAMA -->
+    <table width="100%" bgcolor="#005baa" cellpadding="15" cellspacing="0" border="0">
+        <tr>
+            <td valign="middle">
+                <font color="white" size="5">
+                    <b>Sistem Informasi Statistik Kependudukan</b>
+                </font>
+                <br>
+                <font color="white" size="4">
+                    Kota Yogyakarta
+                </font>
+            </td>
+            <td align="right" valign="top" width="150">
+                <details style="position: relative;">
+                    <summary align="right" valign="middle"
+                    style="list-style: none; cursor: pointer;">
+                        <font color="#ffffff" size="6">
+                            <span id="ikon-menu">&#9776;</span>
+                        </font>
+                    </summary>
+                    <table bgcolor="#005baa" cellpadding="10" cellspacing="0" border="0" align="right" style="position: absolute; right: 0; top: 100%; width: 180px; z-index: 10;">
+                    <tr>
+                        <td>
+                            <a href="#jumlah-penduduk"
+                            onclick="tampilkanTabel('jumlah-penduduk'); return false;"
+                            style="color:white; text-decoration:none; cursor:pointer;">
+                                <font color="#ffffff">Jumlah Penduduk</font>
+                            </a>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td>
+                            <a href="#laju-pertumbuhan"
+                            onclick="tampilkanTabel('laju-pertumbuhan'); return false;"
+                            style="color:white; text-decoration:none; cursor:pointer;">
+                                <font color="#ffffff">Laju Pertumbuhan</font>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#persentase-penduduk"
+                            onclick="tampilkanTabel('persentase-penduduk'); return false;"
+                            style="color:white; text-decoration:none; cursor:pointer;">
+                                <font color="#ffffff">Persentase Penduduk</font>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#kepadatan-penduduk"
+                            onclick="tampilkanTabel('kepadatan-penduduk'); return false;"
+                            style="color:white; text-decoration:none; cursor:pointer;">
+                                <font color="#ffffff">Kepadatan Penduduk</font>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#rasio-jenis-kelamin"
+                            onclick="tampilkanTabel('rasio-jenis-kelamin'); return false;"
+                            style="color:white; text-decoration:none; cursor:pointer;">
+                                <font color="#ffffff">Rasio Jenis Kelamin</font>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </details>
+            </td>
+        </tr>
+    </table>
+
+    <!-- BREADCRUMB -->
+     <br>
+    <table width="100%" cellpadding="5">
+        <tr>
+            <td>
+                <font color="gray" size="3">
+                    <a href="#jumlah-penduduk"
+                    id="breadcrumb-utama">Informasi Kependudukan</a>
+                    &gt;
+                    <span id="nama-tabel">Jumlah Penduduk</span>
+                </font>
+            </td>
+        </tr>
+    </table>
+
+    <!-- TABEL JUMLAH PENDUDUK -->
+     <br>
+    <table id="jumlah-penduduk" width="90%" border="1"
+           cellpadding="8" cellspacing="0" align="center">
+
+        <tr>
+            <td colspan="4">
+                <table width="100%" bgcolor="#2998dc" cellpadding="10">
+                    <tr>
+                        <td width="80" align="center">
+                            <img src="https://jogjakota.go.id/file/content/image/d22b1-Logo_Kota_Yogyakarta.png"
+                                 width="55" height="55"
+                                 alt="Logo Kota Yogyakarta">
+                        </td>
+                        <td align="left">
+                            <font color="white" size="5">
+                                <b>Tabel Penduduk Kota Yogyakarta</b>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="4" align="center">
+                <br>
+                Data Jumlah Penduduk Berdasarkan Kecamatan
+                <br><br>
+            </td>
+        </tr>
+
+        <tr bgcolor="#d9eaf7" align="center">
+            <th rowspan="2">No.</th>
+            <th rowspan="2">Kecamatan</th>
+            <th colspan="2">Jumlah Penduduk</th>
+        </tr>
+        <tr bgcolor="#d9eaf7" align="center">
+            <th>Laki-laki</th>
+            <th>Perempuan</th>
+        </tr>
+
+        <tr align="center"><td>1</td><td align="left">Mantrijeron</td><td>17.180</td><td>18.220</td></tr>
+        <tr align="center"><td>2</td><td align="left">Kraton</td><td>10.370</td><td>10.950</td></tr>
+        <tr align="center"><td>3</td><td align="left">Mergangsan</td><td>15.290</td><td>16.410</td></tr>
+        <tr align="center"><td>4</td><td align="left">Umbulharjo</td><td>35.270</td><td>36.930</td></tr>
+        <tr align="center"><td>5</td><td align="left">Kotagede</td><td>17.520</td><td>18.130</td></tr>
+        <tr align="center"><td>6</td><td align="left">Gondokusuman</td><td>20.920</td><td>22.290</td></tr>
+        <tr align="center"><td>7</td><td align="left">Danurejan</td><td>10.310</td><td>10.780</td></tr>
+        <tr align="center"><td>8</td><td align="left">Pakualaman</td><td>5.060</td><td>5.530</td></tr>
+        <tr align="center"><td>9</td><td align="left">Gondomanan</td><td>7.100</td><td>7.490</td></tr>
+        <tr align="center"><td>10</td><td align="left">Ngampilan</td><td>8.780</td><td>9.140</td></tr>
+        <tr align="center"><td>11</td><td align="left">Wirobrajan</td><td>13.850</td><td>14.420</td></tr>
+        <tr align="center"><td>12</td><td align="left">Gedongtengen</td><td>9.380</td><td>9.760</td></tr>
+        <tr align="center"><td>13</td><td align="left">Jetis</td><td>13.070</td><td>13.950</td></tr>
+        <tr align="center"><td>14</td><td align="left">Tegalrejo</td><td>18.380</td><td>19.120</td></tr>
+    </table>
+
+    <!-- TABEL LAJU PERTUMBUHAN -->
+    <div id="wadah-laju-pertumbuhan" hidden>
+    <table id="laju-pertumbuhan" width="90%" border="1"
+           cellpadding="8" cellspacing="0" align="center">
+        <tr bgcolor="#005baa">
+            <th colspan="3"><font color="white" size="4">Laju Pertumbuhan Penduduk</font></th>
+        </tr>
+        <tr bgcolor="#d9eaf7">
+            <th>No.</th><th>Kecamatan</th><th>Laju Pertumbuhan (%)</th>
+        </tr>
+        <tr align="center"><td>1</td><td align="left">Mantrijeron</td><td>0,15</td></tr>
+        <tr align="center"><td>2</td><td align="left">Kraton</td><td>-0,02</td></tr>
+        <tr align="center"><td>3</td><td align="left">Mergangsan</td><td>-0,01</td></tr>
+        <tr align="center"><td>4</td><td align="left">Umbulharjo</td><td>-0,02</td></tr>
+        <tr align="center"><td>5</td><td align="left">Kotagede</td><td>0,11</td></tr>
+        <tr align="center"><td>6</td><td align="left">Gondokusuman</td><td>-0,02</td></tr>
+        <tr align="center"><td>7</td><td align="left">Danurejan</td><td>0,16</td></tr>
+        <tr align="center"><td>8</td><td align="left">Pakualaman</td><td>-0,01</td></tr>
+        <tr align="center"><td>9</td><td align="left">Gondomanan</td><td>-0,02</td></tr>
+        <tr align="center"><td>10</td><td align="left">Ngampilan</td><td>-0,02</td></tr>
+        <tr align="center"><td>11</td><td align="left">Wirobrajan</td><td>-0,02</td></tr>
+        <tr align="center"><td>12</td><td align="left">Gedongtengen</td><td>-0,02</td></tr>
+        <tr align="center"><td>13</td><td align="left">Jetis</td><td>-0,02</td></tr>
+        <tr align="center"><td>14</td><td align="left">Tegalrejo</td><td>0,01</td></tr>
+    </table>
+    </div>
+
+    <!-- TABEL PERSENTASE PENDUDUK -->
+    <div id="wadah-persentase-penduduk" hidden>
+    <table id="persentase-penduduk" width="90%" border="1"
+           cellpadding="8" cellspacing="0" align="center">
+        <tr bgcolor="#005baa">
+            <th colspan="3"><font color="white" size="4">Persentase Penduduk</font></th>
+        </tr>
+        <tr bgcolor="#d9eaf7">
+            <th>No.</th><th>Kecamatan</th><th>Persentase (%)</th>
+        </tr>
+        <tr align="center"><td>1</td><td align="left">Mantrijeron</td><td>8,97</td></tr>
+        <tr align="center"><td>2</td><td align="left">Kraton</td><td>4,80</td></tr>
+        <tr align="center"><td>3</td><td align="left">Mergangsan</td><td>7,68</td></tr>
+        <tr align="center"><td>4</td><td align="left">Umbulharjo</td><td>18,22</td></tr>
+        <tr align="center"><td>5</td><td align="left">Kotagede</td><td>8,94</td></tr>
+        <tr align="center"><td>6</td><td align="left">Gondokusuman</td><td>9,87</td></tr>
+        <tr align="center"><td>7</td><td align="left">Danurejan</td><td>5,02</td></tr>
+        <tr align="center"><td>8</td><td align="left">Pakualaman</td><td>2,45</td></tr>
+        <tr align="center"><td>9</td><td align="left">Gondomanan</td><td>3,42</td></tr>
+        <tr align="center"><td>10</td><td align="left">Ngampilan</td><td>4,10</td></tr>
+        <tr align="center"><td>11</td><td align="left">Wirobrajan</td><td>6,61</td></tr>
+        <tr align="center"><td>12</td><td align="left">Gedongtengen</td><td>4,41</td></tr>
+        <tr align="center"><td>13</td><td align="left">Jetis</td><td>6,25</td></tr>
+        <tr align="center"><td>14</td><td align="left">Tegalrejo</td><td>9,26</td></tr>
+    </table>
+    </div>
+
+    <!-- TABEL KEPADATAN PENDUDUK -->
+    <div id="wadah-kepadatan-penduduk" hidden>
+    <table id="kepadatan-penduduk" width="90%" border="1"
+           cellpadding="8" cellspacing="0" align="center">
+        <tr bgcolor="#005baa">
+            <th colspan="3"><font color="white" size="4">Kepadatan Penduduk</font></th>
+        </tr>
+        <tr bgcolor="#d9eaf7">
+            <th>No.</th><th>Kecamatan</th><th>Kepadatan (jiwa/km²)</th>
+        </tr>
+        <tr align="center"><td>1</td><td align="left">Mantrijeron</td><td>12.616</td></tr>
+        <tr align="center"><td>2</td><td align="left">Kraton</td><td>13.106</td></tr>
+        <tr align="center"><td>3</td><td align="left">Mergangsan</td><td>12.566</td></tr>
+        <tr align="center"><td>4</td><td align="left">Umbulharjo</td><td>8.224</td></tr>
+        <tr align="center"><td>5</td><td align="left">Kotagede</td><td>11.243</td></tr>
+        <tr align="center"><td>6</td><td align="left">Gondokusuman</td><td>9.303</td></tr>
+        <tr align="center"><td>7</td><td align="left">Danurejan</td><td>17.031</td></tr>
+        <tr align="center"><td>8</td><td align="left">Pakualaman</td><td>14.034</td></tr>
+        <tr align="center"><td>9</td><td align="left">Gondomanan</td><td>11.249</td></tr>
+        <tr align="center"><td>10</td><td align="left">Ngampilan</td><td>18.352</td></tr>
+        <tr align="center"><td>11</td><td align="left">Wirobrajan</td><td>14.034</td></tr>
+        <tr align="center"><td>12</td><td align="left">Gedongtengen</td><td>16.805</td></tr>
+        <tr align="center"><td>13</td><td align="left">Jetis</td><td>13.651</td></tr>
+        <tr align="center"><td>14</td><td align="left">Tegalrejo</td><td>11.754</td></tr>
+    </table>
+    </div>
+
+    <!-- TABEL RASIO JENIS KELAMIN -->
+    <div id="wadah-rasio-jenis-kelamin" hidden>
+    <table id="rasio-jenis-kelamin" width="90%" border="1"
+           cellpadding="8" cellspacing="0" align="center">
+        <tr bgcolor="#005baa">
+            <th colspan="3"><font color="white" size="4">Rasio Jenis Kelamin</font></th>
+        </tr>
+        <tr bgcolor="#d9eaf7">
+            <th>No.</th><th>Kecamatan</th><th>Rasio (laki-laki per 100 perempuan)</th>
+        </tr>
+        <tr align="center"><td>1</td><td align="left">Mantrijeron</td><td>93,6</td></tr>
+        <tr align="center"><td>2</td><td align="left">Kraton</td><td>93,6</td></tr>
+        <tr align="center"><td>3</td><td align="left">Mergangsan</td><td>94,7</td></tr>
+        <tr align="center"><td>4</td><td align="left">Umbulharjo</td><td>95,6</td></tr>
+        <tr align="center"><td>5</td><td align="left">Kotagede</td><td>96,4</td></tr>
+        <tr align="center"><td>6</td><td align="left">Gondokusuman</td><td>93,3</td></tr>
+        <tr align="center"><td>7</td><td align="left">Danurejan</td><td>95,0</td></tr>
+        <tr align="center"><td>8</td><td align="left">Pakualaman</td><td>91,1</td></tr>
+        <tr align="center"><td>9</td><td align="left">Gondomanan</td><td>94,0</td></tr>
+        <tr align="center"><td>10</td><td align="left">Ngampilan</td><td>96,2</td></tr>
+        <tr align="center"><td>11</td><td align="left">Wirobrajan</td><td>95,0</td></tr>
+        <tr align="center"><td>12</td><td align="left">Gedongtengen</td><td>93,8</td></tr>
+        <tr align="center"><td>13</td><td align="left">Jetis</td><td>94,1</td></tr>
+        <tr align="center"><td>14</td><td align="left">Tegalrejo</td><td>95,7</td></tr>
+    </table>
+    </div>
+<br>
+    <!-- FOOTER -->
+    <table width="100%" bgcolor="#005baa" cellpadding="12">
+        <tr>
+            <td align="center">
+                <font color="#ffffff" size="2">
+                    Sumber data:
+                    <a href="https://jogjakota.bps.go.id/id/statistics-table/3/V1ZSbFRUY3lTbFpEYTNsVWNGcDZjek53YkhsNFFUMDkjMyMzNDcx/jumlah-penduduk-laju-pertumbuhan-penduduk-distribusi-persentase-penduduk-kepadatan-penduduk-rasio-jenis-kelamin-penduduk-menurut-kecamatan-di-kota-yogyakarta.html?year=2024/"
+                    target="_blank">
+                    <font color="#ffffff">
+                        Badan Pusat Statistik Kota Yogyakarta
+                    </font>
+                    </a>
+                    <br>
+                    Sistem Informasi Statistik Kependudukan
+                    <br><br>
+                    Bintang Pratama - 25/564532/GE/10852 - Praktikum Algoritma dan Pemrograman Acara 4
+                    <br>
+                    <a href="https://sites.google.com/ugm.ac.id/lab-sig/home"
+                    target="_blank">
+                    <font color="#ffffff">
+                        Laboratorium Sistem Informasi Geografi
+                    <br>
+                    Departemen Sains Informasi Geografi
+                    <br>
+                    Fakultas Geografi
+                    <br>
+                    Universitas Gadjah Mada
+                </font>
+            </td>
+        </tr>
+    </table>
+</font>
+
+<!-- SCRIPT UNTUK MENGUBAH BREADCRUMB -->
+<script>
+const namaTabel = {
+    "jumlah-penduduk": "Jumlah Penduduk",
+    "laju-pertumbuhan": "Laju Pertumbuhan Penduduk",
+    "persentase-penduduk": "Persentase Penduduk",
+    "kepadatan-penduduk": "Kepadatan Penduduk",
+    "rasio-jenis-kelamin": "Rasio Jenis Kelamin"
+};
+
+function tampilkanTabel(id) {
+    for (const tabelId in namaTabel) {
+        let elemen;
+
+        if (tabelId === "jumlah-penduduk") {
+            elemen = document.getElementById(tabelId);
+        } else {
+            elemen = document.getElementById("wadah-" + tabelId);
+        }
+
+        if (elemen) {
+            elemen.hidden = tabelId !== id;
+        }
+    }
+
+    document.getElementById("nama-tabel").textContent =
+        namaTabel[id];
+}
+
+document.querySelectorAll("a[href^='#']").forEach(function(link) {
+    link.addEventListener("click", function(event) {
+        const id = this.getAttribute("href").substring(1);
+
+        if (namaTabel[id]) {
+            event.preventDefault();
+            tampilkanTabel(id);
+        }
+    });
+});
+</script>
+</body>
+<script>
+    const menu =
+    document.querySelector("details");
+    const ikon =
+    document.getElementById("ikon-menu");
+
+    menu.addEventListener("toggle", function() {
+        if (menu.open) {
+            ikon.innerHTML = "&times;";
+        } else {
+            ikon.innerHTML = "&#9776;";
+        }
+    });
+    </script>
+</html>
